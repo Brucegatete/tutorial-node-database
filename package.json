@@ -1,0 +1,17 @@
+{
+  "name": "tutorial-node-database",
+  "version": "1.0.0",
+  "description": "This is a tutorial that shows how to connect node.js apps to dbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruce Gatete",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "mysql": "^2.18.1"
+  }
+}
