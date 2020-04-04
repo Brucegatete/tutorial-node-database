@@ -1,3 +1,9 @@
+/*
+When we run this file, the server will listen on http://localhost:7555 for POST requests to 
+/createUser and pass those requests to the store file. The server will then respond with a 
+200 status code (200 is the code that every HTTP server uses to say that the request was successful).
+*/
+
 const express = require('express')
 const bodyParser = require('body-parser')
 
